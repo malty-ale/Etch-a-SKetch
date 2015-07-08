@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <title>Etch-a-Sketch</title>
+  <link rel='stylesheet' type='text/css' href='css/style.css' />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src='js/script.js'></script>
+</head>
+<body>
+  <div class='container'>
+    <form = class='dimensions'>
+      <div class='formLeft'>
+        <p>Rows:</p>
+        <input type='text' name='rows'>
+      </div>
+      <div class='formCenter'>
+        <button id='dimensionsSubmit'>Create grid!</button>
+      </div>
+      <div class='formRight'>
+        <p>Columns:</p>
+        <input type='text' name='columns'>
+      </div>
+    </form>
+    <div id='border'>
+      <div id='sketch'>
+      </div>
+    </div>
+    <form = class='patterns'>
+      <div class='formLeft'>
+        <button class='button' name='fire' value='1'>Paint with fire</button>
+      </div>
+      <div class='formCenter'>
+        <button class='button' name='gradient' value='2'>Paint with greyscale</button>
+      </div>
+      <div class='formRight'>
+        <button class='button' name='tail' value='3'>Paint with a tail</button>
+      </div>
+    </form>
+  </div>
+</body>

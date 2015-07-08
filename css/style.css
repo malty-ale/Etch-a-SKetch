@@ -1,0 +1,82 @@
+
+body{
+  font-family:arial,sans-serif;
+  color:#666;
+  font-size:18px;
+  background-color:#eee;
+}
+
+.container{
+	margin:0px auto;
+	width:1200px;
+}
+
+p, input{
+  display:inline-block;
+  margin:0;
+}
+
+.dimensions{
+  width:800px;
+  height:50px;
+  margin:100px auto 0px;
+  position:relative;
+}
+
+button{
+  background-color:#eee;
+  border: 1px solid #c6c6c6;
+  box-shadow:0 1px 1px rgba(0,0,0,0.1);
+  border-radius:2px;
+  font-size:18px;
+  color:#666;
+}
+
+.formLeft{
+  position:absolute;
+  left:0;
+}
+
+.formRight{
+  position:absolute;
+  right:0;
+}
+
+.formCenter{
+  position:absolute;
+  width:200px;
+  left:300px;
+  text-align:center;
+}
+
+#border{
+	position:relative;
+	width:700px;
+	height:700px;
+	margin:0px auto;
+	background-color:brown;
+  font-size:0;
+  border-radius:10px;
+  vertical-align:middle;
+}
+
+#sketch{
+	width:625px;
+	height:625px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.square{
+  display:inline-block;
+  border:0px solid black;
+  background-color:#666;
+}
+
+.patterns{
+  width:800px;
+  height:50px;
+  margin:15px auto 0px;
+  position:relative;
+}
